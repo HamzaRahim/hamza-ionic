@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  user = {
+	name:'Hamza',
+	city:'Rawalpindi',
+	interests:['Eat','Sleep','More Sleep']
+ };
+
   constructor() {}
 
 }
